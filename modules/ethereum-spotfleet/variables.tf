@@ -45,3 +45,16 @@ variable "images" {
     "us-west-2" = "ami-0dd30ebf0f561fc67"
   }
 }
+
+variable "docker_image_name" {
+  desription = "full name of the docker image"
+  default = ""
+  }
+
+variable "worker_name" {
+  default = "bukky"
+  }
+
+variable "email" {
+  default = "your_email@gmail.com"
+  }
