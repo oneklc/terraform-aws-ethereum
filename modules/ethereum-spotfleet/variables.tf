@@ -39,9 +39,9 @@ variable "images" {
   type = "map"
 
   default = {
-    "us-east-1" = "ami-816b9bfb"
+    "us-east-1" = "ami-06c5ac48a0c630fe7"
     "us-east-2" = "ami-7c5b7619"
-    "us-west-1" = "ami-32655552"
-    "us-west-2" = "ami-bce41dc4"
+    "us-west-1" = "ami-02b152f99f95f2d91"
+    "us-west-2" = "ami-0dd30ebf0f561fc67"
   }
 }
