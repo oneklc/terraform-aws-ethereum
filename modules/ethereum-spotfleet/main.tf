@@ -6,8 +6,12 @@ data "template_file" "user_data" {
   template = "${file("${path.module}/user_data.tpl")}"
 
   vars {
-    wallet_address = "${var.wallet_address}"
-    pool_host      = "${var.pool_host}"
+    wallet_address     = "${var.wallet_address}"
+    pool_host          = "${var.pool_host}"
+    email              = "${var.email}"
+    docker_image_name  = "${var.docker_image_name}"
+    worker_name              = "${var.worker_name}"
+
   }
 }
 
